@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    min-height: 100vh;
+}
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(102,166,255,0.15);
+    padding: 32px 24px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 8px;
+    font-size: 2.5rem;
+    color: #2d3a4a;
+}
+.subtitle {
+    color: #66a6ff;
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+.linkedin {
+    display: inline-block;
+    margin-bottom: 24px;
+    padding: 10px 24px;
+    background: #0077b5;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.linkedin:hover {
+    background: #005983;
+}
+#skillsBtn {
+    padding: 10px 24px;
+    background: #66a6ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: background 0.2s;
+}
+#skillsBtn:hover {
+    background: #89f7fe;
+    color: #2d3a4a;
+}
+#skillsList {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 300px;
+}
+#skillsList li {
+    background: #f0f7ff;
+    margin: 8px 0;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: #2d3a4a;
+    box-shadow: 0 2px 8px rgba(102,166,255,0.07);
+}
+.hidden {
+    display: none;
+}
