@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xin Kai - IT Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hello, I'm Xin Kai</h1>
+            <p class="subtitle">IT Student passionate about technology and innovation.</p>
+        </header>
+        <section>
+            <a class="linkedin" href="https://www.linkedin.com/" target="_blank">Connect on LinkedIn</a>
+        </section>
+        <section>
+            <button id="skillsBtn">Show My Skills</button>
+            <ul id="skillsList" class="hidden">
+                <li>Programming (Python, JavaScript, HTML, CSS)</li>
+                <li>Web Development</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+                <li>Continuous Learning</li>
+            </ul>
+        </section>
+    </div>
+    <script>
+        const btn = document.getElementById('skillsBtn');
+        const list = document.getElementById('skillsList');
+        btn.addEventListener('click', () => {
+            list.classList.toggle('hidden');
+            btn.textContent = list.classList.contains('hidden') ? 'Show My Skills' : 'Hide My Skills';
+        });
+    </script>
+</body>
+</html>
